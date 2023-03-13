@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.form{
+    background-color: rgb(16, 145, 16);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    
+    
+}
+.form .container {
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    margin-top: 20px;
+}
+.hay{
+    margin: 10px 30px;
+
+}
+.form h1{
+    font-size:30px ;
+    margin-bottom: 10px;
+    color: #8c8c8c;
+}
+.form p{
+    color: #8c8c8c;
+    margin-bottom: 10px;
+}
+
+.container input{
+        margin-top: 5px;
+        border:1px solid rgb(192, 174, 174) ;
+        height: 30px;
+        width: 100%;
+        padding: 5px;
+}
+.container button{
+    margin-top: 15px;
+    width:100% ;
+    height: 30px;
+    background-color:rgb(16, 145, 16);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 18px;
+}
+.continer2{
+    display: flex;
+    justify-content: center;
+}
+.container Textarea{
+    width: 100%;
+    padding: 5px;
+    margin-top: 8px;
+    color:#8c8c8c ;
+    height: 90px;
+}
+.continer2 a{
+    margin-left: 5px;
+    
+}
+.continer2 p{
+    color:#8c8c8c ;
+    margin-top: 18px;
+}
